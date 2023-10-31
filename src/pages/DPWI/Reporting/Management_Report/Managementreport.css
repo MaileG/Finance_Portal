@@ -1,0 +1,19 @@
+.main {
+    height: 800px;
+    overflow-x: scroll !important;
+    overflow-x: hidden !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #fff !important;
+    background-color: var(--primary-color);
+    font-weight: var(--font-weight-600);
+}
+
+.nav-tabs .nav-link {
+    color: var(--header-footer-color);
+}
+
+h4 {
+    text-transform: uppercase;
+}

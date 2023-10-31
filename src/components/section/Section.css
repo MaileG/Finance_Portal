@@ -1,0 +1,8 @@
+
+.text-success {
+    background: var(--primary-color);
+}
+
+.text-success p {
+    font-weight: 600;
+}

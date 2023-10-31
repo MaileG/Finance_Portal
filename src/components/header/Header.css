@@ -1,0 +1,14 @@
+.header {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: var(--header-footer-color);
+}
+
+.header h2 {
+    color: #fff;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: var(--font-weight-600);
+    text-shadow: 2px 2px #8d7a7a;
+}

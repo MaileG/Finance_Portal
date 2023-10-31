@@ -1,0 +1,31 @@
+
+.logo img {
+    width: 100%;
+}
+
+.left-bar {
+    background: var(--primary-color);
+    margin-top: 20px;
+    width: 100%;
+    border-right: 1px solid var(--border-hr-color);
+
+}
+
+.nav > li {
+    border-bottom: var(--border-hr-color) solid 0.5px;
+    padding: 0;
+}
+
+.nav > li > a {
+    cursor: pointer;
+    padding: 5px;
+    display: block;
+    color: var(--secondary-color);
+    font-weight: var(--font-weight-500);
+    text-transform: uppercase;
+}
+
+.nav > li > a.active {
+    background: var(--header-footer-color);
+    color: var(--primary-color);
+}

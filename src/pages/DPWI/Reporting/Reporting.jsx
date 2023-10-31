@@ -1,0 +1,44 @@
+import React from 'react';
+import '../../DPWI/Reporting/Reporting.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { NavLink } from 'react-router-dom';
+
+import { faFolderOpen } from '@fortawesome/free-solid-svg-icons';
+
+
+const Reporting = () => {
+  return (
+    <div className="main pb-5">
+      
+      <div className="page-title mb-5 pt-3">
+        <h4>Reporting Matters</h4>
+      </div>
+      <div className="row">
+        <div className="col-3">
+          <div class="card text-center" title="Audit Report">
+            <div class="card-body">
+              <h4>Audit Report</h4>
+              <hr />
+              <NavLink to='/audit'><FontAwesomeIcon icon={faFolderOpen} size="6x" className="pe-2" style={{color: "#6f6a64"}}></FontAwesomeIcon></NavLink>
+              
+            </div>            
+          </div>
+        </div>       
+
+        <div className="col-3">
+          <div class="card text-center" title="Management Report">
+            <div class="card-body">
+              <h4>Management Report</h4>
+              <hr />
+              <NavLink to='/man_report'><FontAwesomeIcon icon={faFolderOpen} size="6x" className="pe-2" style={{color: "#6f6a64"}}></FontAwesomeIcon></NavLink>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  );
+}
+
+export default Reporting

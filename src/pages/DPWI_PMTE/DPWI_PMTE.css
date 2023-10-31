@@ -1,0 +1,18 @@
+.card {
+    background: var(--primary-color);
+}
+
+.card-body h4 {
+    font-size: 14px;
+    font-weight: var(--font-weight-600);
+    color: var(--header-footer-color);
+}
+
+.card-body p {
+    font-size: 12px;
+}
+
+a {
+    display: block;
+    padding: 0 1rem;
+}

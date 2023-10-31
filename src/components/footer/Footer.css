@@ -1,0 +1,13 @@
+.footer {
+    width: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: var(--header-footer-color);
+    margin-bottom: -17px;
+}
+
+.footer p {
+    color: #fff;
+    padding: 15px;
+    font-size: 11px;
+}
